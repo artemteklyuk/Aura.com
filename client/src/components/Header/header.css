@@ -1,0 +1,100 @@
+.header {
+}
+.container {
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 20px 36px;
+ display: grid;
+ grid-template-columns: 1fr 4fr 1fr;
+ justify-items: start;
+ gap: 10px
+
+}
+.logo {
+ height: 50px;
+ width: 100px;
+ justify-self: center;
+}
+.nav {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 46px;
+ align-self: center;
+
+
+}
+.nav__btn {
+ padding: 0;
+ width: auto;
+ background-color: white;
+ border: none;
+}
+.nav__text__btn {
+ margin: 0;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 750;
+ line-height: normal;
+}
+.header_btn {
+ border: none;
+ height: 50px;
+ justify-self: center;
+ padding: 0 43px;
+ border-radius: 77px;
+ background: #07060B;
+ font-size: 16px;
+ color: #fff;
+ margin: 0;
+}
+.header_btn__text {
+ font-size: 16px;
+ color: #fff;
+ margin: 0;
+}
+
+
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 768px){
+ .container {
+  justify-content: center;
+  padding: 12px 20px;
+  row-gap: 20px;
+ }
+ .nav {
+  gap: 30px;
+  grid-column: 1/4;
+  justify-self: center;
+  padding-top: 2px;
+ }
+ .logo {
+  width: 75px;
+  height: 36px;
+ }
+ .nav__text__btn {
+  font-size: 16px;
+ }
+ .header_btn__text {
+  display: none;
+ }
+ .header_btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: url("../../accets/wallet.svg") no-repeat;
+  border: none;
+  border-radius: 0;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  justify-self: end;
+
+ }
+ .nav__btn {
+  background-color: white;
+  align-items: center;
+  border: none;
+ }
+}

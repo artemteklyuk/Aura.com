@@ -1,9 +1,8 @@
-
+import Header from "./components/Header/header";
+import "./app.css"
 function App() {
   return (
-    <div>
-      REACT
-    </div>
+    <Header/>
   );
 }
 
