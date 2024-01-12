@@ -17,7 +17,7 @@
     display: inline-flex;
     gap: 10px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    align-items: center;
     flex-basis: 50%;
 }
 
@@ -31,8 +31,7 @@
     border-radius: 40px;
     width: 176px;
     height: 70px;
-    justify-content: center;
-    align-items: center;
+    border: none;
     background: -webkit-linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
 }
 
@@ -80,8 +79,8 @@
         row-gap: 20px;
     }
     .group {
+        align-items: flex-start;
         flex-direction: column;
-        align-self: center;
     }
     .heading {
         font-size: 35px;
