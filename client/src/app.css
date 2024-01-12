@@ -3,4 +3,8 @@ p {
     font-size: 20px;
     font-family: 'Muller', sans-serif;
     color: #06060B;
+    margin: 0;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
 }
