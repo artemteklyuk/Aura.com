@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@font-face {
+    font-weight: 700;
+    font-family: "Muller";
+    font-style: normal;
+    src: url("./accets/2DF5B4_2_0.woff2") format("woff2")
+}
 p {
     font-size: 20px;
     font-family: 'Muller', sans-serif;
-    color: #06060B;
-    margin: 0;
     font-style: normal;
-    font-weight: 750;
+    font-weight: 700;
     line-height: normal;
+    letter-spacing: 0em;
+
+}
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container {
+    padding: 0 36px;
+    max-width: 1352px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+    .container{
+        padding: 0 12px;
+    }
 }

@@ -3,14 +3,12 @@
     height: 680px;
 }
 
-.container {
+.preview_content {
+    padding: 20px 0;
     display: flex;
-    height: 680px;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 36px;
     align-items: center;
-
+    gap: 100px;
+    height: 680px;
 }
 
 .group {
@@ -23,8 +21,8 @@
 
 .heading {
     color: #FFF;
-    font-weight: 700;
-    font-size: 70px;
+    z-index: 1;
+    -webkit-text-stroke: 1px #07060B;
 }
 
 .btn_buy {
@@ -54,26 +52,36 @@
 }
 
 .stickers {
-    width: 900px;
+    max-width: none;
     height: 680px;
+    width: 800px;
     position: absolute;
     right: 0;
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1390px) {
+    .preview_content {
+        gap: 10px;
+        justify-content: space-between;
+    }
     .section {
         overflow: hidden;
     }
-
+    .heading {
+        font-size: 60px;
+    }
     .stickers {
         position: relative;
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .section {
         height: 531px;
     }
-    .container {
+    .heading {
+        font-size: 35px;
+    }
+    .preview_content {
         flex-direction: column;
         padding: 12px 20px;
         row-gap: 20px;
@@ -81,9 +89,6 @@
     .group {
         align-items: flex-start;
         flex-direction: column;
-    }
-    .heading {
-        font-size: 35px;
     }
     .btn_buy {
         width: 132px;
@@ -100,7 +105,8 @@
         font-size: 16px;
     }
     .stickers {
-        top: 115px;
+        max-width: none;
+        top: 130px;
         height: 1200px;
         transform: rotate(90deg);
     }

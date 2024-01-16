@@ -1,15 +1,12 @@
 .header {
 }
 
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 20px 36px;
+.header_content {
+    padding: 20px 0;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     justify-items: start;
-    gap: 10px
-
+    gap: 20px
 }
 
 .logo {
@@ -19,8 +16,7 @@
 }
 
 .nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 46px;
     align-self: center;
 
@@ -61,7 +57,7 @@
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .container {
         justify-content: center;
         padding: 12px 20px;
