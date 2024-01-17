@@ -3,7 +3,7 @@
     font-weight: 700;
     font-family: "Muller";
     font-style: normal;
-    src: url("./accets/2DF5B4_2_0.woff2") format("woff2")
+    src: url("accets/Fonts/2DF5B4_2_0.woff2") format("woff2")
 }
 p {
     font-size: 20px;
@@ -21,11 +21,19 @@ h1 {
     font-weight: 400;
     line-height: normal;
 }
+h2 {
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .container {
     padding: 0 36px;
     max-width: 1352px;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 767px) {
     .container{
         padding: 0 12px;
