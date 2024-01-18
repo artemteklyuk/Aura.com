@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './OtherAuctions.module.css'
 import StickerCard from "./StickerCard/StickerCard";
+import MyButton from "../UI/Button/MyButton";
 const OtherAuctions = () => {
     return (
         <section className="container">
@@ -16,7 +17,7 @@ const OtherAuctions = () => {
                     <StickerCard/>
                     <StickerCard/>
                 </div>
-                <button className={classes.btn}><p>Все аукционы</p></button>
+                <MyButton className={classes.btn}>Все аукционы</MyButton>
             </div>
         </section>
     );

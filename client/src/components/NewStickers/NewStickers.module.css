@@ -1,0 +1,53 @@
+.section {
+    background-color: #07060B;
+}
+.content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.header {
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+.header:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    background-image: url("../../accets/fire.png");
+    background-repeat: no-repeat;
+}
+.nav {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    gap: 5px;
+}
+.sticker {
+    align-self: center;
+}
+.stickerPack {
+    width: 1280px;
+    height: 300px;
+}
+.btn {
+    color: #FFFFFF;
+    display: flex;
+    width: 56px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid #D13130;
+}
+.btnIsSelected {
+    background-color: #D13130;
+}
+
+@media screen and (max-width: 1280px) {
+
+}

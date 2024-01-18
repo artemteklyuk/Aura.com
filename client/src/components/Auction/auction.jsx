@@ -4,10 +4,11 @@ import clock from '../../accets/clock.svg'
 import witcher from '../../accets/Witcher.png'
 import avatar from '../../accets/avatar.png'
 import cn from "classnames"
+import MyButton from "../UI/Button/MyButton";
 
 const Auction = () => {
     return (
-        <div className="container">
+        <section className="container">
             <div className={classes.auction}>
                 <div className={classes.heading}>
                     <h1 className={cn(classes.text_Big, classes.text_Other)}>Аукцион</h1>
@@ -47,12 +48,10 @@ const Auction = () => {
                             <img src={clock} alt="Clock" className={classes.svg_clock}/>
                         </div>
                     </div>
-                    <button className={classes.btn}>
-                        <p className={cn(classes.text_Small, classes.text_Other)}>Сделать ставку</p>
-                    </button>
+                    <MyButton className={classes.btn}>Сделать ставку</MyButton>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

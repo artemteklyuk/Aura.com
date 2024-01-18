@@ -1,0 +1,80 @@
+.section {
+    background-color: #D13130;
+    height: 391px;
+    overflow: hidden;
+}
+.content {
+    display: flex;
+    position: relative;
+}
+.header {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 1;
+}
+.input {
+    width: 460px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #07060B
+}
+input[placeholder] {
+    color: #EDEDF2;
+    padding-left: 32px;
+    text-overflow:ellipsis;
+}
+.btn {
+    background-color: #46F4DB !important;
+}
+.personalData {
+    display: flex;
+    gap: 8px;
+}
+.checkBox {
+
+}
+.personalText {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.image {
+    position: absolute;
+    right: 0;
+    top: -100px;
+    width: 680px;
+    height: auto;
+}
+@media screen and (max-width: 1230px) {
+    .image {
+        top: -40px;
+        width: 550px;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .section {
+        height: 466px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .image {
+        top: 250px;
+    }
+    .input {
+        width: 296px;
+        height: 50px;
+    }
+    .btn {
+        height: 50px;
+        padding: 0;
+    }
+
+}

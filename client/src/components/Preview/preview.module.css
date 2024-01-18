@@ -26,23 +26,17 @@
 }
 
 .btn_buy {
-    border-radius: 40px;
-    width: 176px;
-    height: 70px;
-    border: none;
-    background: -webkit-linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    width: 176px !important;
+    border: none !important;
+    background: -webkit-linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%) !important;
 }
 
 .btn_author {
-    background-color: transparent;
-    width: 247px;
-    height: 70px;
+    height: 70px !important;
+    width: 247px !important;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
     border: 5px solid  #46F4DB;
-
-
 }
 .text_buy {
     color: #07060B;
@@ -91,12 +85,14 @@
         flex-direction: column;
     }
     .btn_buy {
-        width: 132px;
-        height: 50px;
+        width: 132px !important;
+        height: 50px !important;
+        padding: 0 0;
     }
     .btn_author {
-        width: 164px;
-        height: 50px;
+        width: 164px !important;
+        height: 50px !important;
+        padding: 0 0;
     }
     .text_buy {
         font-size: 16px;
