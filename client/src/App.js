@@ -7,6 +7,7 @@ import Auction from "./components/Auction/auction";
 import OtherAuctions from "./components/OtherAuctions/OtherAuctions";
 import NewStickers from "./components/NewStickers/NewStickers";
 import Subscribe from "./components/Subscribe/Subscribe";
+import BecomeAnAuthor from "./components/BecomeAnAuthor/BecomeAnAuthor";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <OtherAuctions/>
             <NewStickers/>
             <Subscribe/>
+            <BecomeAnAuthor/>
         </BrowserRouter>
     )
 }

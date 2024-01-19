@@ -26,6 +26,7 @@
 }
 input[placeholder] {
     color: #EDEDF2;
+    font-size: 20px;
     padding-left: 32px;
     text-overflow:ellipsis;
 }

@@ -1,0 +1,117 @@
+.content {
+    display: flex;
+    gap: 32px;
+    margin: 90px 0;
+}
+.image {
+    width: 624px;
+    height: 252px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.desc {
+    font-weight: 400;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.dropArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    background: #EDEDF2;
+}
+.addJPng {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.plusArea {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.plus {
+    width: 40px;
+    height: 40px;
+}
+.addText {
+    color: #95959D;
+
+}
+.input {
+    background-color: #EDEDF2;
+    width: 624px;
+    height: 70px;
+    border-radius: 40px;
+    padding: 10px 10px 10px 32px;
+}
+input[placeholder] {
+    color: #EDEDF2;
+    font-size: 20px;
+    padding-left: 32px;
+    text-overflow: ellipsis;
+}
+.btn {
+    background-color: #46F4DB !important;
+}
+
+@media screen and (max-width: 1353px) {
+    .content {
+        flex-direction: column;
+    }
+    .image {
+        align-self: center;
+    }
+    form {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .image {
+        width: 296px;
+        height: 119px;
+    }
+    .dropArea {
+        width: 296px;
+        height: 200px;
+    }
+    .plusArea {
+        width: 60px;
+        height: 60px;
+    }
+    .plus {
+        width: 18px;
+        height: 18px;
+    }
+    .input {
+        width: 296px;
+        height: 50px;
+    }
+    .btn {
+        width: 200px;
+        height: 50px;
+        padding: 0;
+    }
+    .head2 {
+        display: none;
+    }
+    .addText {
+        font-size: 16px;
+    }
+
+}
