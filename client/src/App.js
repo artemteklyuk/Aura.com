@@ -8,6 +8,10 @@ import OtherAuctions from "./components/OtherAuctions/OtherAuctions";
 import NewStickers from "./components/NewStickers/NewStickers";
 import Subscribe from "./components/Subscribe/Subscribe";
 import BecomeAnAuthor from "./components/BecomeAnAuthor/BecomeAnAuthor";
+import TopSales from "./components/TopSales/TopSales";
+import Conditions from "./components/Сonditions/Conditions";
+import Footer from "./components/Footer/Footer";
+import Basement from "./components/ Basement/Basement";
 
 const App = () => {
     return (
@@ -19,6 +23,10 @@ const App = () => {
             <NewStickers/>
             <Subscribe/>
             <BecomeAnAuthor/>
+            <TopSales/>
+            <Conditions/>
+            <Footer/>
+            <Basement/>
         </BrowserRouter>
     )
 }

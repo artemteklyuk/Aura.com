@@ -1,0 +1,20 @@
+.section {
+    padding: 90px 0;
+    background-color: #07060B;
+}
+.head {
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 32px;
+}
+@media screen and (max-width: 1353px) {
+    .cardContainer {
+        justify-items: center;
+        gap: 20px;
+    }
+}

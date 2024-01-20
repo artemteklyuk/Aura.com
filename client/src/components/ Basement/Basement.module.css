@@ -1,0 +1,9 @@
+.basement {
+    background-color: #07060B;
+    padding: 8px 0;
+}
+.content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
